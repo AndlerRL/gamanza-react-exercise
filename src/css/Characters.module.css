@@ -1,0 +1,55 @@
+.Characters__Container {
+  width: 100%; }
+  .Characters__Container .Character__Item {
+    height: 360px;
+    background-color: #444;
+    border-radius: 4px;
+    border: 2px solid #444;
+    box-shadow: 1px 2px 10px #2223;
+    position: relative; }
+    .Characters__Container .Character__Item .Character_Item__Img_Container {
+      background-color: #222;
+      height: 100%; }
+    .Characters__Container .Character__Item .Character_Item__Content {
+      color: #f5f5f5;
+      overflow-y: auto;
+      padding-bottom: 24px;
+      margin-bottom: 24px;
+      height: 90%; }
+      .Characters__Container .Character__Item .Character_Item__Content .Char__Title {
+        position: absolute;
+        margin-top: 2rem;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 300;
+        letter-spacing: 1px;
+        background-color: #777;
+        padding: 8px 0; }
+      .Characters__Container .Character__Item .Character_Item__Content .Char__Key {
+        padding: 8px;
+        text-transform: uppercase;
+        font-weight: 600; }
+        .Characters__Container .Character__Item .Character_Item__Content .Char__Key span,
+        .Characters__Container .Character__Item .Character_Item__Content .Char__Key .Char__Occupation {
+          text-transform: initial;
+          font-weight: 400; }
+      .Characters__Container .Character__Item .Character_Item__Content .Char__Occupation {
+        padding: 6px 8px;
+        background-color: #777;
+        border-radius: 6px;
+        width: fit-content;
+        margin: 4px; }
+
+.Death__Item {
+  border: 3px solid #444;
+  border-radius: 4px; }
+  .Death__Item h2 {
+    padding: 16px 0; }
+  .Death__Item p {
+    text-align: left;
+    padding: 8px 0px; }
+
+.Btn {
+  cursor: pointer; }

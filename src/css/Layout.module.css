@@ -1,0 +1,43 @@
+/** FONT SIZES **/
+/** FONT SIZES END **/
+/** BREAKPOINTS **/
+/** BREAKPOINTS ENDS **/
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.App__Container {
+  width: 100%; }
+  .App__Container .Navigation__Container {
+    /* NOT WORKING, using regular colors instead
+    @include themify($themes) {
+      background-color: themed('primary50');
+    } */
+    background-color: #222;
+    color: #f5f5f5; }
+    .App__Container .Navigation__Container ul {
+      list-style: none; }
+      .App__Container .Navigation__Container ul li {
+        text-transform: uppercase; }
+        .App__Container .Navigation__Container ul li a {
+          color: #f5f5f5;
+          text-decoration: none;
+          letter-spacing: 1px;
+          font-weight: 500;
+          padding: 12px 0;
+          border-bottom: 4px solid transparent;
+          transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1) 55ms; }
+          .App__Container .Navigation__Container ul li a.Active, .App__Container .Navigation__Container ul li a:hover, .App__Container .Navigation__Container ul li a:active {
+            color: #757575;
+            border-bottom: 4px solid #757575; }
+  .App__Container .Main_Content__Container {
+    min-height: 100vh;
+    width: 91.666%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 64px 0; }
+  .App__Container .Footer__Container {
+    background-color: #222;
+    color: #f5f5f5; }
